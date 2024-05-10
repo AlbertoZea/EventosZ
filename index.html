@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Formulario de Evento</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Formulario de Evento</h1>
+    <form id="eventForm">
+      <div class="form-group">
+        <label for="eventName">Nombre del Evento</label>
+        <input type="text" id="eventName" name="eventName" required>
+      </div>
+      <div class="form-group">
+        <label for="date">Fecha</label>
+        <input type="date" id="date" name="date" required>
+      </div>
+      <div class="form-group">
+        <label for="location">Ubicacion</label>
+        <input type="text" id="location" name="location" required>
+      </div>
+      <div class="form-group">
+        <label for="description">Descripcion</label>
+        <textarea id="description" name="description" rows="3" required></textarea>
+      </div>
+      <button type="submit">Registrar Evento</button>
+    </form>
+  </div>
+</body>
+</html>
